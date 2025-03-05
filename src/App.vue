@@ -25,7 +25,7 @@ import { io } from 'socket.io-client';
 const notifications = ref([]);
 
 const mySucursal = ref('4');
-const myUser = ref('6');
+const myUser = ref('8');
 
 onMounted(() => {
   const socket = io('http://localhost:3000');
